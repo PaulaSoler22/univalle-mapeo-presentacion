@@ -7,21 +7,30 @@
 
 ## Alcance de esta presentación
 
-**Cubre únicamente la Facultad de Ciencias de la Administración** (6 programas): Administración
+**Cubre únicamente la Facultad de Ciencias de la Administración** (7 programas): Administración
 de Empresas, Contaduría Pública, Comercio Exterior, Finanzas y Banca, Gestión del Emprendimiento
-y la Innovación, Administración Turística.
+y la Innovación, Administración Turística, **Administración Pública**.
 
-El Excel fuente trae un séptimo programa, **Economía**, que pertenece a la **Facultad de
+El Excel fuente trae un octavo programa, **Economía**, que pertenece a la **Facultad de
 Ciencias Sociales y Económicas** — otra facultad de Univalle. La primera versión de este deck
-cubría las dos facultades (7 programas); a solicitud de Paula (2026-09-07) se dejó **solo la
-Facultad de Ciencias de la Administración**. Los datos de Economía se conservan más abajo, por
-si se retoma un deck para la otra facultad — no se recalculó nada, solo se excluyó del deck y de
-los totales.
+cubría las dos facultades (7 programas, con Economía); a solicitud de Paula (2026-09-07) se
+dejó **solo la Facultad de Ciencias de la Administración** (Economía salió del deck).
+Administración Pública se añadió después (2026-09-09): es un programa real y reciente de esa
+misma Facultad (creado en 2020, primera cohorte 2020-2021, adscrito al Departamento de
+Administración y Organizaciones — confirmado contra el sitio de la Facultad,
+administracion.univalle.edu.co), así que entra directamente en el alcance vigente sin reabrir
+la pregunta de las dos facultades. Los datos de Economía se conservan más abajo, por si se
+retoma un deck para la otra facultad — no se recalculó nada, solo se excluyó del deck y de los
+totales.
 
 ## Fuente
 
-- Excel: `Universidad del Valle.xlsx` (copiado a esta carpeta), recibido el 2026-09-07.
-- 6 programas, todos de la Facultad de Ciencias de la Administración.
+- Excel: `Universidad del Valle.xlsx` (copiado a esta carpeta). Mapeo original recibido el
+  2026-09-07; hoja "Administración Pública" añadida el 2026-09-09 a partir de la malla curricular
+  oficial que Paula compartió en el chat (`MALLA CURRICULAR PREGRADO ADMINISTRACIÓN PÚBLICA.pdf`,
+  Tabla 8, Resolución N.º 004 del 24-ene-2020).
+- 7 programas, todos de la Facultad de Ciencias de la Administración (+ Economía, fuera de
+  alcance, ver abajo).
 - Metodología: revisión asignatura por asignatura de cada pensum contra el catálogo de 41
   simuladores CompanyGame (hoja "Catálogo CompanyGame" del Excel).
 
@@ -46,26 +55,88 @@ la presentación; el Excel original sigue diciendo "perfecto" en esas 4 filas.
 | Comercio Exterior | 49 | 4 | 8 | 12 | 24,5 % |
 | Finanzas y Banca | 52 | 4 | 4 | 8 | 15,4 % |
 | Contaduría Pública | 63 | 3 | 4 | 7 | 11,1 % |
-| **TOTAL Facultad** | **331¹** | **25** | **41** | **66** | **19,9 %** |
+| Administración Pública | 50 | 2 | 2 | 4 | 8,0 % |
+| **TOTAL Facultad** | **381¹** | **27** | **43** | **70** | **18,4 %** |
 
 ¹ Administración de Empresas tiene 61 materias, pero solo 60 quedan clasificadas (6+7+47): la
 materia "Administración y gestión financiera" (semestre 6) no tiene Grado de ajuste diligenciado
-en el Excel — ver salvedades. El total de 331 es el del Excel (7 programas menos Economía); el
-deck muestra 66 asignaturas con simulador, no el total de materias.
+en el Excel — ver salvedades. El total de 381 es el del Excel (los 7 programas de la Facultad,
+sin Economía); el deck muestra 70 asignaturas con simulador, no el total de materias.
 
-**Simuladores distintos en uso: 29** (sin cambios frente a la versión anterior: las 4 materias
-reclasificadas y la eliminada usaban simuladores que ya estaban en uso en otras materias de sus
-mismos programas). **Rango de semestres: 1 – 9** (sin cambios).
+**Simuladores distintos en uso: 29** (sin cambios frente a la versión sin Administración
+Pública: los 5 simuladores que usa ese programa — T-Shirt, Sunny Day, ContaTrainer, Advisor Jr.,
+Fitness Gym — ya estaban en uso en los otros programas). **Rango de semestres: 1 – 9** (sin
+cambios: Administración Pública cubre 2 – 7, dentro del rango existente).
 
 **Lo que el deck NO muestra, por criterio editorial (ver abajo), y que sí hay que tener listo de
 viva voz:**
-- Cobertura real: **≈ 20 %** de las materias de la Facultad tienen algún simulador (perfecto o
-  parcial). El deck dice "66 asignaturas", nunca "66 de 331".
-- El programa con menor cobertura dentro de la Facultad es **Contaduría Pública** (11,1 %). No
-  se expone en el deck ni se compara contra los demás.
+- Cobertura real: **≈ 18 %** de las materias de la Facultad tienen algún simulador (perfecto o
+  parcial). El deck dice "70 asignaturas", nunca "70 de 381".
+- El programa con menor cobertura dentro de la Facultad es **Administración Pública** (8,0 %,
+  4 de 50 materias), seguido de Contaduría Pública (11,1 %). No se expone en el deck ni se
+  compara contra los demás.
 - Las materias sin simulador que encaje; el Excel propone, para casi todas, qué tipo de
   simulador *podría* desarrollarse — esa columna no se usó en el deck (es información de
   producto/roadmap, no de venta actual).
+
+## Administración Pública — cómo se clasificó cada asignatura (2026-09-09)
+
+Paula pidió explícitamente **verificar el contenido programático real** de cada materia antes de
+recomendar un simulador, no solo emparejar por nombre. Se hizo búsqueda web para las asignaturas
+donde el nombre podía sugerir un encaje que el contenido real no sostiene. Resultado: **2
+perfecto, 2 parcial, 46 no encaja** (cobertura 8 %, la más baja de la Facultad — es un pregrado
+de vocación pública, con una malla que el catálogo actual de CompanyGame, orientado al sector
+privado, cubre poco).
+
+**Encaje perfecto (2):**
+- *Fundamentos de Administración* (sem. 2) → T-Shirt / Sunny Day. Contenido verificado: proceso
+  administrativo clásico (planeación, organización, dirección, control) — el mismo temario que
+  sostiene "Proceso Administrativo" en los otros 6 programas.
+- *Fundamentos de Contabilidad Financiera* (sem. 3) → ContaTrainer. Mismo caso que "Fundamentos
+  de Contabilidad" en el resto de la Facultad; el nombre varía ligeramente (agrega "Financiera")
+  pero es la misma introducción a la contabilidad.
+
+**Encaje parcial (2):**
+- *Matemática Financiera* (sem. 4) → Advisor Jr. — igual que en los demás programas.
+- *Diseño y Evaluación de Proyectos Sociales* (sem. 7) → Fitness Gym. Verificado por búsqueda
+  web: este tipo de curso sí enseña evaluación financiera de proyectos (VPN, TIR) dentro del
+  marco de marco lógico aplicado a proyectos sociales — la misma técnica que "Evaluación
+  Financiera de Proyectos" trabaja en los demás programas con Fitness Gym/Business Chef. Se
+  marcó parcial y no perfecto porque el caso de negocio de Fitness Gym es una empresa privada
+  (gimnasio), no un proyecto social — el simulador ejercita la técnica, no el contexto público.
+
+**Casos verificados y descartados (no encaja, con justificación específica — no solo "no hay
+match por nombre"):**
+- *Marketing Social y Político* — se investigó la diferencia entre marketing comercial y
+  marketing social/político: son disciplinas distintas (fines de lucro vs. cambio social/opinión
+  pública), con objetivos, públicos y técnicas diferentes. Los simuladores de marketing del
+  catálogo (Coffee Time, MarketGame, FOCUS, etc.) simulan decisiones comerciales de una empresa;
+  no aplican a comunicación política ni marketing social. **No se forzó el match aunque ambas
+  digan "marketing".**
+- *Sistemas de Gestión de Calidad* — en el sector público colombiano este curso gira en torno a
+  la NTCGP 1000 / ISO 9001 (normas de calidad y certificación de entidades públicas), no a la
+  operación de una planta de producción. Milk Factory (usado como "parcial" para gestión de
+  calidad en otros programas) simula producción y capacidad de una planta láctea — un contenido
+  distinto. **No se reutilizó ese match aunque el nombre de la materia coincida.**
+- *Responsabilidad Social y Gestión Humana en el Sector Público* — combina RSE con gestión de
+  talento humano específicamente en entidades públicas (aspectos éticos, legales y técnicos del
+  empleo público). ESG Management (usado en otros programas para RSE pura) simula el trade-off
+  rentabilidad/sostenibilidad de una empresa privada; no cubre gestión humana ni el marco público.
+  Es un caso límite — la mitad de RSE podría apoyarse parcialmente en ESG Management si el
+  docente quiere material complementario, pero se decidió no forzarlo dado que el curso mezcla
+  dos temas y ninguno de los dos encaja limpiamente.
+- *Innovación Social, Gobernanza y Buen Gobierno* — la innovación social (soluciones a problemas
+  sociales, con o sin fines de lucro) es conceptualmente distinta de la innovación corporativa
+  que simula InnovaTech (transformación digital de una empresa). No se forzó el match.
+- *Presupuesto Público y Control Fiscal*, *Planeación Estatal y Presupuesto Público*, *Hacienda
+  Pública y Finanzas Públicas*, *Contabilidad Pública*, *Contratación Estatal* — finanzas y
+  contratación del sector público, con reglas y lógica distintas a las de una empresa privada
+  (Corbatul, Trading, Bankgame simulan finanzas corporativas). Mismo criterio que ya se aplicaba
+  a "Hacienda pública" y "Contabilidad pública" en Contaduría Pública y Finanzas y Banca.
+
+Todas las descripciones de "tipo de simulador a desarrollar" para las materias sin encaje quedaron
+en la hoja del Excel (columna G), igual que en los demás programas — son sugerencias de producto,
+no compromisos de venta.
 
 ## Reclasificaciones manuales (no vienen del Excel — decisión comercial de Paula, 2026-09-07)
 
@@ -119,38 +190,42 @@ Se conservan aquí por si en el futuro se arma un deck para esa facultad. **No e
   - Vale la pena avisarle a quien mantiene el Excel maestro, para limpiarlo en la próxima
     actualización.
 - **T-Shirt / Sunny Day** aparece como celda compuesta (los dos simuladores son opción válida
-  para la misma materia) en 5 programas. Para el conteo de simuladores se contaron **ambos** como
-  distintos (29 en total, no 28) — es una convención de conteo, no un error; si se prefiere
-  contarlos como una sola opción, el total baja a 28.
+  para la misma materia) en 6 programas (incluida Administración Pública). Para el conteo de
+  simuladores se contaron **ambos** como distintos (29 en total, no 28) — es una convención de
+  conteo, no un error; si se prefiere contarlos como una sola opción, el total baja a 28.
+- **Nombre de la asignatura transversal:** en Administración Pública se llama "Fundamentos de
+  Contabilidad Financiera"; en los demás 6 programas, "Fundamentos de Contabilidad" (o variantes
+  de mayúsculas). Es la misma introducción a la contabilidad en todos los casos — se verificó
+  por contenido, no solo por nombre — pero quien revise el Excel notará la diferencia de
+  redacción entre pensums.
 
 ## Qué se cambió respecto a la plantilla, y por qué
 
 - **El slide de asignatura transversal SÍ se usa** (a diferencia de la primera versión, que lo
-  había borrado). Al retirar Economía del alcance, **Fundamentos de Contabilidad → ContaTrainer**
-  queda con encaje perfecto en los **6 de 6** programas restantes — el criterio de la plantilla
-  ("se repite en TODOS los programas con encaje perfecto") sí se cumple. Es una sola asignatura
-  transversal, no varias como en el ejemplo de la USC; el slide se adaptó para mostrar las 6
-  filas (una por programa) en vez del value-chain de tres eslabones, que no aplicaba a un único
-  hallazgo puntual.
-- **El hallazgo del slide 3** apunta a esta misma asignatura transversal, no a Fitness Gym (que
-  era el hallazgo de la primera versión, con las 7 facultades). Fitness Gym sigue apareciendo en
-  los 6 programas, pero solo de forma perfecta en uno; Fundamentos de Contabilidad es un
-  hallazgo más fuerte (perfecto en los 6) y coincide con el slide dedicado.
-- **El card "Todos pueden empezar ya" (slide 4)** volvió a usar el rango de encaje *perfecto* por
-  programa, como en el diseño original de la plantilla. En la versión con Economía este rango
-  había bajado a 0 y se había cambiado a encaje total para no exponer un vacío; sin Economía, el
-  problema desaparece. Tras la reclasificación manual del 2026-09-07 (ver arriba), el rango
-  vigente es **"entre 3 y 6 asignaturas"** (antes "3 y 7": Administración de Empresas bajó de 7 a
-  6 perfectos al reclasificar Gestión de Bienes y Servicios).
-- **La tabla de evidencia de aprendizaje** perdió la fila de ESG Project (solo aparecía en
-  Economía). El resto de la tabla, heredado de la versión anterior, sigue igual.
-- **La tabla de alcance por programa (slide 4)** quedó con 6 filas, ordenadas de más a menos
-  asignaturas: Gestión del Emprendimiento (14, tras la reclasificación) → Administración de
-  Empresas (13) → Administración Turística y Comercio Exterior (12, empate desempatado por más
-  encajes perfectos) → Finanzas y Banca (8) → Contaduría Pública (7).
-- El deck ya no menciona "las dos facultades" ni usa "Univalle" como sustituto de facultad: al
-  quedar una sola, se usa "la Facultad" de forma directa en el cuerpo del texto, como en el
-  diseño original de la plantilla.
+  había borrado). **Fundamentos de Contabilidad → ContaTrainer** tiene encaje perfecto en los
+  **7 de 7** programas de la Facultad — incluida Administración Pública, cuya versión se llama
+  "Fundamentos de Contabilidad Financiera" (mismo contenido, nombre ligeramente distinto; ver
+  salvedades). El criterio de la plantilla ("se repite en TODOS los programas con encaje
+  perfecto") se cumple. Es una sola asignatura transversal, no varias como en el ejemplo de la
+  USC; el slide muestra 7 filas (una por programa) en vez del value-chain de tres eslabones.
+- **El hallazgo del slide 3** apunta a esta misma asignatura transversal. Fitness Gym también
+  aparece en los 7 programas, pero solo de forma perfecta en uno (Gestión del Emprendimiento);
+  Fundamentos de Contabilidad es el hallazgo más fuerte (perfecto en los 7) y coincide con el
+  slide dedicado.
+- **El card "Todos pueden empezar ya" (slide 4)** usa el rango de encaje *perfecto* por
+  programa. Con Administración Pública (2 perfectos, el mínimo de la Facultad) el rango vigente
+  es **"entre 2 y 6 asignaturas"** (antes "3 y 6": Contaduría Pública, con 3, dejó de ser el
+  mínimo).
+- **La tabla de evidencia de aprendizaje** no cambió al añadir Administración Pública: los 5
+  simuladores que usa (T-Shirt, Sunny Day, ContaTrainer, Advisor Jr., Fitness Gym) ya tenían fila
+  en la tabla.
+- **La tabla de alcance por programa (slide 4)** quedó con 7 filas, ordenadas de más a menos
+  asignaturas: Gestión del Emprendimiento (14) → Administración de Empresas (13) →
+  Administración Turística y Comercio Exterior (12, empate desempatado por más encajes
+  perfectos) → Finanzas y Banca (8) → Contaduría Pública (7) → Administración Pública (4, al
+  fondo — es real y no se disimula, pero tampoco se resalta con color de alerta).
+- El deck sigue usando "la Facultad" de forma directa en el cuerpo del texto (no "las dos
+  facultades" ni "Univalle" como sustituto), como se decidió en la versión anterior.
 
 ## Salvedades que deben mantenerse en el discurso
 
@@ -163,12 +238,14 @@ Se conservan aquí por si en el futuro se arma un deck para esa facultad. **No e
 - La URL `plataforma.companygame.net` no aparece en ningún slide (el cierre solo trae los
   contactos comercial y de fidelización). Si la audiencia la pide, se da de viva voz.
 
-## ⚠️ Si este repositorio va a ser público
+## ⚠️ Este repositorio es público
 
-Este archivo expone la cobertura real (20,2 %) y el detalle de Contaduría Pública (11,1 %), más
-los datos completos de Economía (fuera del deck pero documentados aquí). Si la presentación o su
-repositorio se comparten fuera del equipo comercial, revisar que este `CLAUDE.md` no viaje junto
-con el `index.html` / `artifact.html`.
+Se creó como repositorio **público** en GitHub el 2026-09-07, a pedido explícito de Paula (tras
+advertirle que este archivo expone la cobertura real, ~18 %, y el detalle de los programas con
+menor encaje — Administración Pública 8 %, Contaduría Pública 11,1 % — además de los datos
+completos de Economía). Cualquiera con el link puede ver este `CLAUDE.md` y todo el historial de
+commits. Si en algún momento se prefiere restringir el acceso, hay que pasar el repo a privado o
+sacar este archivo del historial (no solo del working tree).
 
 ## Datos fijos del distribuidor
 

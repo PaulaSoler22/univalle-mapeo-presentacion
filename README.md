@@ -8,28 +8,29 @@ ya pueden trabajarse con un simulador CompanyGame**, con cuál y en qué semestr
 
 ## En cifras
 
-- **6 pregrados**: Administración de Empresas, Contaduría Pública, Comercio Exterior, Finanzas y
-  Banca, Gestión del Emprendimiento y la Innovación, Administración Turística.
-- **66 asignaturas** con simulador — 25 de aplicación directa, 41 como apoyo al curso.
+- **7 pregrados**: Administración de Empresas, Contaduría Pública, Comercio Exterior, Finanzas y
+  Banca, Gestión del Emprendimiento y la Innovación, Administración Turística, Administración
+  Pública.
+- **70 asignaturas** con simulador — 27 de aplicación directa, 43 como apoyo al curso.
 - **29 simuladores** distintos del catálogo CompanyGame, de primer a noveno semestre.
-- **Fundamentos de Contabilidad** es transversal a los 6 programas: en todos entra de aplicación
+- **Fundamentos de Contabilidad** es transversal a los 7 programas: en todos entra de aplicación
   directa con ContaTrainer.
 
 Las cifras completas (incluida la cobertura real y el detalle por programa) están documentadas
 en `CLAUDE.md`, junto con las salvedades del Excel fuente y los cambios hechos frente a la
 plantilla maestra.
 
-## Estructura — 14 slides
+## Estructura — 15 slides
 
 1. Portada y contexto
 2. Cartelera de simuladores CompanyGame · **fijo**
 3. Lo que ya se puede hacer hoy
 4. Alcance por programa
-5–10. **Ficha por programa** — una por cada uno de los 6 pregrados
-11. Asignatura transversal: Fundamentos de Contabilidad
-12. Los tres modelos de uso docente (A / B / C) · **fijo**
-13. Evidencia de aprendizaje y acreditación
-14. Cierre y contacto · **fijo**
+5–11. **Ficha por programa** — una por cada uno de los 7 pregrados
+12. Asignatura transversal: Fundamentos de Contabilidad
+13. Los tres modelos de uso docente (A / B / C) · **fijo**
+14. Evidencia de aprendizaje y acreditación
+15. Cierre y contacto · **fijo**
 
 ## Cómo verla
 
